@@ -73,16 +73,13 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
     - 'Name of bag' will be the dataset's UUID
     - 'Contact Name' is the name of the bagger
     - 'Contact email' is the email address of the bagger
-
   ####Please note, to ensure proper chain of custody, we need people to use their real names and email addresses.
   - After completing these fields, choose ``"Save and Next"``. This will prompt you to save a "DCP" file, which will allow you to return to this package if you want to change/add information about the bag later or create the bag with different formatting options. (More on this below.)
-
   - After saving the DCP file, choose ``"Browse"`` under ``"Select a Content Directory"``.
   - Navigate to the directory you want to bag. Once the directory is loaded, choose "Next".
   - A screen will pop up saying "Creating Package Tree + Directories"
   - When finished, you should a see a screen that lists out the files that will go into the bag. "Unassigned" files are artifacts of the operating system and can be ignored.
   If everything looks good, click on ``"Save & Next"``
-
   - Under packaging options, choose the following options:
     - Archive Format: zip
     - Compression Format: none (default for zip)
@@ -90,12 +87,10 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
     - Checksum algorithm: MD5
   - Click on ``"Choose Directory"`` to tell DCP where to save the finished bag. A screen should pop up that will say "Generating Package".
   - When DCP is finished bagging the folder, it will offer the choice to create another version of the package in a different format (using different options listed above). This is not necessary, so choose ``"No, Thanks"``.
-
   - Locate the .zip file of the finished bag.
   - Open a shell or Terminal prompt.
   - Run the following command:  
       ``bagit.py --validate [path to finished bag]``
-
   - If it comes back as "valid" you can proceed to the final step of uploading the bag below.
     - If it doesn't not validate, please go back over your process above. If you are confident you followed all the instructions and it still does not validate, please notify a DataRescue guide or report in the DataRescue Slack channel.
 
