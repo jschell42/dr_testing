@@ -91,8 +91,8 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
   - Open a shell or Terminal prompt.
   - Run the following command:  
       ``bagit.py --validate [path to finished bag]``
-  - If it comes back as "valid" you can proceed to the final step of uploading the bag below.
-    - If it doesn't not validate, please go back over your process above. If you are confident you followed all the instructions and it still does not validate, please notify a DataRescue guide or report in the DataRescue Slack channel.
+  - If it comes back as "valid" you can proceed to the next step of uploading the bag.
+    - If it does not validate, please go back over your process above. If you are confident you followed all the instructions and it still does not validate, please notify a DataRescue guide or report in the DataRescue Slack channel.
 
 ##Uploading the Finished Bag  
 - Upload the zipped bag using the application http://drp-upload-bagger.herokuapp.com/
