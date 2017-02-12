@@ -35,8 +35,6 @@ The `URL` is the link to examine, and the `UUID` is a canonical ID we'll use to 
 ## Note: URL vs UUID
 The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID we use to connect the url with the data in question. The UUID will have been generated earlier earlier in the process. UUID stands for Universal Unique Identifier.
 
-**Note: the next few steps below need to be reviewed in light of the new app-driven workflow**
-
 ## Downloading & opening the dataset
   - Go to the URL containing the zipped dataset (provided in the "Bag" section and underneath "Harvest URL/Location")
   - Download the zip file to your computer, and unzip it.
@@ -73,7 +71,7 @@ The `URL` is the link to examine and harvest, and the `UUID` is a canonical ID w
     - 'Name of bag' will be the dataset's UUID
     - 'Contact Name' is the name of the bagger
     - 'Contact email' is the email address of the bagger    
-####Please note, to ensure proper chain of custody, we need people to use their real names and email addresses.
+    - **Please note, to ensure proper chain of custody, we need people to use their real names and email addresses.**
   - After completing these fields, choose ``"Save and Next"``. This will prompt you to save a "DCP" file, which will allow you to return to this package if you want to change/add information about the bag later or create the bag with different formatting options. (More on this below.)
   - After saving the DCP file, choose ``"Browse"`` under ``"Select a Content Directory"``.
   - Navigate to the directory you want to bag. Once the directory is loaded, choose "Next".
